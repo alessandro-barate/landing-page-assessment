@@ -110,6 +110,10 @@
   width: calc(100% / 3);
 }
 
+.card-container .card {
+  width: 100%;
+}
+
 .upper-container {
   margin-bottom: 2em;
 }
