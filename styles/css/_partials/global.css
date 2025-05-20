@@ -7,3 +7,25 @@
   width: 100%;
   object-fit: contain;
 }
+
+.jumbo-paragraph-container {
+  display: flex;
+  margin-top: 6em;
+}
+
+.jumbo-paragraph-logo {
+  width: 20%;
+  text-align: end;
+}
+
+.jumbo-paragraph-logo img {
+  width: 5%;
+}
+
+.jumbo-paragraph {
+  width: 80%;
+  font-size: 2em;
+  font-weight: 500;
+  padding-left: 1.3em;
+  padding-right: 8em;
+}
