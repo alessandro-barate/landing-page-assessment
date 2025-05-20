@@ -76,6 +76,7 @@
 
   .cards-paragraphs-container {
     width: 100%;
+    margin-bottom: 2.2em;
     padding-right: 0;
   }
 
@@ -86,6 +87,11 @@
   .card-container {
     width: 100%;
     margin-top: 2.2em;
+  }
+
+  .flip-card {
+    width: 100%;
+    margin-bottom: 2em;
   }
 
   .upper-container {
@@ -103,11 +109,11 @@
     width: 100%;
   }
 
-  .lower-container .single-card {
+  .lower-container .flip-card-inner {
     margin-bottom: 2em;
   }
 
-  .single-card img {
+  .flip-card-inner img {
     width: 100%;
   }
   /* END cards section */
