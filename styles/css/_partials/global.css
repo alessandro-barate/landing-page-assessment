@@ -56,7 +56,7 @@
 /* Grid section styles */
 .grid-container {
   width: 100%;
-  height: 135vh;
+  height: 130vh;
   display: grid;
   column-gap: 0;
   grid-template-rows: 50% 50%;
@@ -75,8 +75,46 @@
   object-fit: cover;
 }
 
-.grid-column:nth-child(2),
+.grid-column:nth-child(2) {
+  padding: 8em 5em 0em 4em;
+  background-color: #ede9e9;
+}
+
 .grid-column:nth-child(3) {
-  padding: 8em 2em 4em 1em;
+  color: #ffffff;
+  padding: 8em 6em 0em 7em;
+  background-color: #691512;
+}
+
+.grid-column p {
+  margin-top: 0.6em;
 }
 /* END grid section styles */
+
+/* Cards section */
+.cards-container {
+  width: 80%;
+  padding-top: 2em;
+}
+
+.one-card-container {
+  width: 30%;
+  margin: 0;
+  background-color: red;
+}
+
+.two-columns-container {
+  width: 70%;
+  margin: 0;
+  display: flex;
+  background-color: aquamarine;
+}
+
+.two-columns-container p {
+  font-size: 1.25em;
+}
+
+.two-columns-container-paragraphs {
+  padding: 1em 6em 0em 0;
+}
+/* END cards section */
