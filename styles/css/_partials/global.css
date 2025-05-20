@@ -74,4 +74,9 @@
   height: 100%;
   object-fit: cover;
 }
+
+.grid-column:nth-child(2),
+.grid-column:nth-child(3) {
+  padding: 8em 2em 4em 1em;
+}
 /* END grid section styles */

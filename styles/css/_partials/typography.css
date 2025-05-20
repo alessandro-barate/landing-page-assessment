@@ -3,6 +3,7 @@
 h2 {
   color: #691512;
 }
+/* END colors */
 
 /* Dimensions */
 h2 {
@@ -12,8 +13,23 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 2.3em;
+  font-weight: 500;
+}
+/* END dimensions */
+
+/* Jumbo */
 .jumbo-paragraph,
 .company-approach-paragraph p {
   font-size: 2.2em;
   font-weight: 500;
 }
+/* END jumbo */
+
+/* Company approach */
+.grid-column p {
+  font-size: 1.4em;
+  line-height: 1.2em;
+}
+/* END company approach */
