@@ -120,7 +120,7 @@
 }
 
 .single-card img {
-  width: 100%;
+  width: 92%;
   object-fit: contain;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -131,7 +131,6 @@
 /* Form section */
 .form-main-container {
   width: 100%;
-  padding: 80px 0;
   padding-bottom: 6em;
   background-color: #ede9e9;
 }

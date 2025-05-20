@@ -51,7 +51,8 @@
   }
 
   #second-block p,
-  #third-block p {
+  #third-block p,
+  .cards-paragraphs-container p {
     font-size: 1.3em;
   }
 
@@ -65,15 +66,54 @@
     margin-top: 0.6em;
   }
   /* END grid section styles */
-}
 
-/* Form section */
-.first-row,
-.second-row {
-  display: block;
-}
+  /* Cards section */
+  .cards-main-container {
+    width: 90%;
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
 
-.input-group {
-  margin-bottom: 1.5em;
+  .cards-paragraphs-container {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .cards-paragraphs-container p {
+    margin-top: 0.4em;
+  }
+
+  .card-container {
+    width: calc(100% / 3);
+  }
+
+  .upper-container {
+    margin-bottom: 2em;
+  }
+
+  .upper-container,
+  .lower-container {
+    display: block;
+    width: 90%;
+  }
+
+  .single-card img {
+    width: 92%;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  /* END cards section */
+
+  /* Form section */
+  .first-row,
+  .second-row {
+    display: block;
+  }
+
+  .input-group {
+    margin-bottom: 1.5em;
+  }
+  /* END form section */
 }
-/* END form section */
