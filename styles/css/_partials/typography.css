@@ -21,7 +21,8 @@ h3 {
 
 /* Jumbo */
 .jumbo-paragraph,
-.company-approach-paragraph p {
+.company-approach-paragraphs p,
+.form-paragraphs p {
   font-size: 2.2em;
   font-weight: 500;
 }

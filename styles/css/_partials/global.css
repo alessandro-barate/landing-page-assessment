@@ -46,7 +46,7 @@
   margin-bottom: 1em;
 }
 
-.company-approach-paragraph p {
+.company-approach-paragraphs p {
   width: 80%;
   margin-top: 0.2em;
   margin-left: 0;
@@ -92,53 +92,18 @@
 /* END grid section styles */
 
 /* Cards section */
-.cards-container {
-  width: 80%;
-  padding-top: 2em;
-}
 
-.one-card-container {
-  width: 30%;
-  height: 50vh;
-  margin: 0;
-  overflow: hidden;
-  perspective: 1000px;
-  background-color: red;
-}
-
-.two-columns-container {
-  width: 1000%;
-  margin: 0;
-  display: flex;
-  background-color: aquamarine;
-}
-
-.two-columns-container p {
-  font-size: 1.25em;
-}
-
-.two-columns-container-paragraphs {
-  width: 70%;
-  padding: 1em 6em 0em 0;
-}
-
-.card {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: 0.6s;
-  transform-style: preserve-3d;
-}
-
-.card-front,
-.card-back {
-  width: 100%;
-  height: 100%;
-}
-
-.card-front img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 /* END cards section */
+
+/* Form section */
+.form-main-container {
+  width: 100%;
+  background-color: #ede9e9;
+}
+
+.form-container {
+  width: 80%;
+  padding: 0;
+  padding-top: 5em;
+}
+/* END form section */
