@@ -9,3 +9,7 @@ Landing page for an assessment. The project's specs are:
 - No need to develop neither the header not the footer.
 - Colors and font as close to the originals as possible.
 - Responsive design for different breakpoints (desktop, tablet, mobile).
+
+## Notes
+
+No guidelines about how to approach the layout, so I decided to go for the desktop-first approach.
