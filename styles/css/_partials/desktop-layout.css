@@ -90,7 +90,23 @@
 /* END grid section styles */
 
 /* Cards section */
+.cards-main-container {
+  width: 100%;
+}
 
+.upper-container {
+  background-color: red;
+}
+
+.lower-container {
+  background-color: blue;
+}
+
+.upper-container,
+.lower-container {
+  display: flex;
+  width: 80%;
+}
 /* END cards section */
 
 /* Form section */
