@@ -1,2 +1,79 @@
-@media (max-width: 440px) {
+@media (max-width: 600px) {
+  /* Jumbo section styles */
+  .jumbo-paragraph-container {
+    width: 90%;
+    margin-top: 4.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .jumbo-paragraph-logo img {
+    width: 80%;
+  }
+
+  .jumbo-paragraph {
+    width: 95%;
+    font-size: 1.5em;
+    padding-left: 0.8em;
+    padding-right: 1.5em;
+  }
+  /* END jumbo section styles */
+
+  /* Commpany approach section styles */
+  .company-approach-paragraphs h2 {
+    width: 90%;
+    text-align: start;
+    font-size: 1.1em;
+    margin-left: 0;
+  }
+
+  .company-approach-paragraphs p,
+  .form-paragraphs p {
+    width: 100%;
+    font-size: 1.5em;
+    margin-top: 0.6em;
+  }
+  /* END commpany approach section styles */
+
+  /* Grid section styles */
+  .grid-container {
+    height: 100%;
+    display: block;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  #second-block {
+    padding: 4em 5em 7em 3em;
+    background-color: #ede9e9;
+  }
+
+  #second-block p,
+  #third-block p {
+    font-size: 1.3em;
+  }
+
+  #third-block {
+    color: #ffffff;
+    padding: 7em 3em 4.5em 3em;
+    background-color: #691512;
+  }
+
+  .grid-column p {
+    margin-top: 0.6em;
+  }
+  /* END grid section styles */
 }
+
+/* Form section */
+.first-row,
+.second-row {
+  display: block;
+}
+
+.input-group {
+  margin-bottom: 1.5em;
+}
+/* END form section */
