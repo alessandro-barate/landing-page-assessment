@@ -29,7 +29,8 @@ h3 {
 /* END jumbo */
 
 /* Company approach */
-.grid-column p {
+.grid-column p,
+.cards-paragraphs-container p {
   font-size: 1.4em;
   line-height: 1.3em;
 }

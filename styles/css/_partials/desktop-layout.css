@@ -92,22 +92,25 @@
 /* Cards section */
 .cards-main-container {
   width: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
-.paragraphs-container {
+.cards-paragraphs-container {
   width: 70%;
+  padding-right: 5em;
+}
+
+.cards-paragraphs-container p {
+  margin-top: 0.4em;
 }
 
 .card-container {
-  width: 30%;
+  width: calc(100% / 3);
 }
 
 .upper-container {
-  background-color: red;
-}
-
-.lower-container {
-  background-color: blue;
+  margin-bottom: 2em;
 }
 
 .upper-container,
@@ -119,6 +122,9 @@
 .single-card img {
   width: 100%;
   object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 /* END cards section */
 
