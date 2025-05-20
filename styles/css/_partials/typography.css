@@ -1,0 +1,19 @@
+/* Colors */
+.jumbo-paragraph span,
+h2 {
+  color: #691512;
+}
+
+/* Dimensions */
+h2 {
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
+
+.jumbo-paragraph,
+.company-approach-paragraph p {
+  font-size: 2.2em;
+  font-weight: 500;
+}

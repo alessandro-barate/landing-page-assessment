@@ -1,8 +1,10 @@
 /* Importing the stylesheets */
 @import url(./reset.css);
+@import url(./typography.css);
 @import url(./tablet_layout.css);
 @import url(./mobile_layout.css);
 
+/* Jumbo section styles */
 .jumbo-image {
   width: 100%;
   object-fit: contain;
@@ -14,8 +16,6 @@
   margin-top: 6em;
   padding-bottom: 4.5em;
   border-bottom: 1px solid #afafaf;
-
-  margin-bottom: 20px;
 }
 
 .jumbo-paragraph-logo {
@@ -29,13 +29,22 @@
 
 .jumbo-paragraph {
   width: 95%;
-  font-size: 2.2em;
-  font-weight: 500;
   padding-left: 1.3em;
   padding-right: 5.5em;
 }
 
 .jumbo-paragraph span {
-  color: #691512;
   font-style: italic;
+}
+
+/* Commpany approach section styles */
+.company-approach-container {
+  width: 80%;
+  margin-top: 4em;
+}
+
+.company-approach-paragraph p {
+  width: 80%;
+  margin-top: 0.2em;
+  margin-left: 0;
 }
