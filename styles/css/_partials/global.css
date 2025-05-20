@@ -1,4 +1,9 @@
+/* Importing the stylesheets */
 @import url(./reset.css);
-@import url(./desktop_layout.css);
 @import url(./tablet_layout.css);
 @import url(./mobile_layout.css);
+
+.jumbo-image {
+  width: 100%;
+  object-fit: contain;
+}
