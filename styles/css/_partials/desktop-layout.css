@@ -224,6 +224,7 @@
 form input[type="text"],
 form input[type="email"],
 form input[type="tel"],
+select,
 form textarea {
   width: 100%;
   padding: 12px 15px;
@@ -236,9 +237,14 @@ form textarea {
 }
 
 form input::placeholder,
+select,
 form textarea::placeholder {
   color: #999;
   font-weight: 300;
+}
+
+option:not(:first-of-type) {
+  color: black;
 }
 
 .form-footer {
@@ -255,5 +261,6 @@ button {
   padding: 0.5em 1em 0.5em 1em;
   font-size: 1em;
   background-color: #54110e;
+  text-transform: uppercase;
 }
 /* END form section */

@@ -75,6 +75,7 @@
                       <h2>rooftop club</h2>
                       <p>Il 90% delle proprietà più esclusive non arriva mai sul mercato. Il RoofTop Club è la chiave d'accesso a questi gioielli nascosti, riservata a un numero ristretto di investitori. Un privilegio pensato per garantire discrezione assoluta e opportunità senza precedenti</p>
                     </div>
+                    <!-- First card -->
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <!-- First card front -->
@@ -91,11 +92,13 @@
                         <!-- END first card back -->
                       </div>
                     </div>
+                    <!-- END first card -->
                   </div>
                   <!-- END upper container with 2 columns -->
 
                   <!-- Lower container with 3 columns -->
                   <div class="lower-container">
+                    <!-- Second card -->
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <!-- Second card front -->
@@ -112,6 +115,9 @@
                         <!-- END second card back -->
                       </div>
                     </div>
+                    <!-- END second card -->
+
+                    <!-- Third card -->
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <!-- Third card front -->
@@ -128,6 +134,9 @@
                         <!-- END third card back -->
                       </div>
                     </div>
+                    <!-- END third card -->
+
+                    <!-- Fourth card -->
                     <div class="flip-card">
                       <div class="flip-card-inner">
                         <!-- Fourth card front -->
@@ -144,6 +153,7 @@
                         <!-- END fourth card back -->
                       </div>
                     </div>
+                    <!-- END fourth card -->
                   </div>
                   <!-- END lower container with 3 columns -->
                 </div>
@@ -155,13 +165,19 @@
              <section>
               <div class="form-main-container">
                 <div class="form-container">
+                  <!-- Form paragraphs -->
                   <div class="form-paragraphs">
                     <h2>contatti</h2>
                     <p>Vuoi entrare a far parte del Rooftop Club e accedere alle soluzioni off-market più esclusive?</p>
                   </div>
+                  <!-- END form paragraphs -->
+
+                  <!-- Form -->
                   <form>
+                    <!-- First form row -->
                     <div class="first-row">
 
+                      <!-- Input fields -->
                       <div class="input-group">
                         <label for="name" class="hidden">Nome</label>
                         <input type="text" id="name" name="name" placeholder="Nome" required>
@@ -176,8 +192,13 @@
                         <label for="email" class="hidden">Email</label>
                         <input type="email" id="email" name="email" placeholder="Email" required>
                       </div>
+                      <!-- END input fields -->
                     </div>
+                    <!-- END first form row -->
+
+                    <!-- Second form row -->
                     <div class="second-row">
+                      <!-- Input fields -->
                       <div class="input-group">
                         <label for="telephone" class="hidden">Telefono</label>
                         <input type="tel" id="telephone" name="telephone" placeholder="Telefono">
@@ -190,26 +211,49 @@
                       
                       <div class="input-group">
                         <label for="country" class="hidden">Nazione</label>
-                        <input type="text" id="country" name="country" placeholder="Nazione">
+                        <select id="country" name="country" placeholder="Nazione">
+                          <option value="" disabled selected>Nazione</option>
+                          <option value="italy">Italia</option>
+                          <option value="spain">Spagna</option>
+                          <option value="france">Francia</option>
+                          <option value="norway">Norvegia</option>
+                          <option value="sweden">Svezia</option>
+                          <option value="portugal">Portogallo</option>
+                          <option value="scotland">Scozia</option>
+                          <option value="germany">Germania</option>
+                        </select>
                       </div>
+                      <!-- END input fields -->
                     </div>
+                    <!-- END second form row -->
                     
+                    <!-- Message field -->
                     <div class="message-row">
                       <div class="input-group full-width">
                         <label for="message" class="hidden">Messaggio</label>
                         <textarea id="message" name="message" placeholder="Messaggio" rows="5"></textarea>
                       </div>
                     </div>
+                    <!-- END message field -->
                     
+                    <!-- Form footer -->
                     <div class="form-footer">
+                      <!-- Privacy checkbox -->
                       <div class="privacy-group">
                         <input type="checkbox" id="privacy" name="privacy" required>
                         <label for="privacy">Accetto l'informativa sulla Privacy Policy</label>
                       </div>
+                      <!-- END privacy checkbox -->
                       
-                      <button type="submit" class="submit-btn">INVIA</button>
+                      <!-- Submit button -->
+                      <div>
+                        <button type="submit" class="submit-btn">invia</button>
+                      </div>
+                      <!-- END submit button -->
                     </div>
+                    <!-- END form footer -->
                   </form>
+                  <!-- END form -->
                 </div>
               </div>
              </section>
