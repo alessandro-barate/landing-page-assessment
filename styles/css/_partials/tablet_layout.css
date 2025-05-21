@@ -1,6 +1,0 @@
-@media (min-width: 660px) and (max-width: 1024px) {
-  .first-row,
-  .second-row {
-    display: flex;
-  }
-}
